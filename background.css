@@ -1,0 +1,42 @@
+/* Global Box-Sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    margin-top: 10px; /* Space between the box and the text */
+    font-size: 20px; /* Text size */
+}
+
+
+/* Box Styling */
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(191, 187, 187);
+    
+    background-color: #c0d2eb; /* Initial background color */
+    transition: background-color 0.5s ease; /* Smooth transition */
+}
+
+/* Change background color when hovered */
+.box:hover {
+    background-color: #a7a2a2; /* Background color on hover */
+}
