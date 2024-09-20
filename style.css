@@ -6,7 +6,9 @@
     font-family: Arial, Helvetica, sans-serif;
     
 }
-
+header{
+    padding: 10px;
+}
 /* Navbar Styling */
 .navbar {
     display: flex;
@@ -92,19 +94,16 @@
 main {
     font-family: Arial, sans-serif;
     height: 100vh;
-    margin-top: 20px;
     margin: 0;
     display: inline-flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-    background-color: #f0f0f0;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
 }
 
 .text {
@@ -112,14 +111,32 @@ main {
     font-size: 20px; /* Text size */
 }
 
-
+.logo-heading{
+    font-size: 30px;
+    text-align: right;
+    
+}
+.heading{
+    font-size: 80px;
+    color: blue;
+}
+p{
+    position: absolute;
+    font-size: 30px;
+}
+h1{
+    position: absolute;
+    text-align: left;
+    font-size: 80px;
+}
 /* Box Styling */
 .box {
     width: 100px;
     height: 100px;
-    border: 1px solid rgb(191, 187, 187);
-    
-    background-color: #b0cbf1; /* Initial background color */
+    border: 1px solid rgb(219, 216, 216);
+    position: relative;
+    background-attachment: fixed;
+    background-color: #495fef2a; /* Initial background color */
     transition: background-color 0.5s ease; /* Smooth transition */
 }
 
